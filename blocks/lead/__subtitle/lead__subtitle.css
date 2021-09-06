@@ -7,3 +7,37 @@
   text-align: center;
   color: #ffffff;
 }
+
+@media screen and (max-width: 768px) {
+  .lead__subtitle {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .lead__subtitle {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .lead__subtitle {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .lead__subtitle {
+    font-size: 17px;
+    line-height: 21px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__subtitle {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

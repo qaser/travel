@@ -1,4 +1,5 @@
 .cards__paragraph {
+  width: 100%;
   margin: 0;
   font-weight: 400;
   font-size: 18px;
@@ -8,4 +9,16 @@
 
 .cards__paragraph:nth-child(2n) {
   margin-top: 26px;
+}
+
+@media screen and (width: 1024px) {
+  .cards__paragraph {
+    font-size: 18px;
+  }
+}
+
+@media screen and (width: 768px) {
+  .cards__paragraph {
+    font-size: 16px;
+  }
 }

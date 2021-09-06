@@ -1,4 +1,19 @@
 .cards__paragraphs {
-  width: 50%;
+  max-width: 50%;
   margin-top: 48px;
+}
+
+@media screen and (max-width: 768px) {
+  .cards__paragraphs {
+    max-width: 50%;
+    margin: 48px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cards__paragraphs {
+    max-width: 100%;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
 }

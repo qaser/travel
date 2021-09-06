@@ -7,17 +7,25 @@
   color: #ffffff;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .lead__title {
     font-size: 96px;
     line-height: 100px;
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 768px) {
   .lead__title {
     font-size: 68px;
     line-height: 72px;
+  }
+}
+
+/* промежуточное разрешение экрана, чтобы тект не выходил за границы экрана */
+@media screen and (max-width: 490px) {
+  .lead__title {
+    font-size: 46px;
+    line-height: 52px;
   }
 }
 
