@@ -1,16 +1,9 @@
 .cards__paragraphs {
   max-width: 50%;
-  margin-top: 48px;
+  margin: 48px 0 0 0;
 }
 
-@media screen and (max-width: 768px) {
-  .cards__paragraphs {
-    max-width: 50%;
-    margin: 48px 0 0 0;
-  }
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 560px) {
   .cards__paragraphs {
     max-width: 100%;
     margin-left: 16px;

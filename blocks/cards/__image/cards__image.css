@@ -4,13 +4,7 @@
   height: min-content;
 }
 
-@media screen and (max-width: 768px) {
-  .cards__image {
-    max-width: 46%;
-  }
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 560px) {
   .cards__image {
     max-width: 100%;
   }

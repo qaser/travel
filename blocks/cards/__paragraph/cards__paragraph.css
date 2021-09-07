@@ -5,19 +5,14 @@
   font-size: 18px;
   line-height: 163%;
   color: #ffffff;
+  overflow: hidden;
 }
 
 .cards__paragraph:nth-child(2n) {
   margin-top: 26px;
 }
 
-@media screen and (width: 1024px) {
-  .cards__paragraph {
-    font-size: 18px;
-  }
-}
-
-@media screen and (width: 768px) {
+@media screen and (max-width: 800px) {
   .cards__paragraph {
     font-size: 16px;
   }

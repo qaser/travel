@@ -11,7 +11,7 @@
   margin-top: 0;
 }
 
-@media screen and (width: 320px) {
+@media screen and (width: 560px) {
   .cards__item {
     flex-direction: column;
   }

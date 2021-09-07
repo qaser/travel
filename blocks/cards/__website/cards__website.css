@@ -5,17 +5,8 @@
   justify-content: end;
 }
 
-@media screen and (width: 768px) {
+@media screen and (max-width: 560px) {
   .cards__website {
-    width: 50%;
-    margin-top: 0;
-    margin-left: 0;
-  }
-}
-
-@media screen and (width: 320px) {
-  .cards__website {
-    width: 100%;
     margin-top: 32px;
     margin-left: 16px;
   }
