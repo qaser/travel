@@ -7,13 +7,13 @@
   margin: 0;
 }
 
-@media(max-width: 690px) {
+@media screen and (max-width: 690px) {
   .footer__copyright {
     align-self: flex-end;
   }
 }
 
-@media(max-width: 320px) {
+@media screen and (max-width: 380px) {
   .footer__copyright {
     text-align: start;
     margin: 0;
@@ -21,6 +21,11 @@
     font-size: 14px;
     line-height: 14px;
     align-self: flex-start;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer__copyright {
     margin-left: 16px;
   }
 }

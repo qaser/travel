@@ -7,6 +7,7 @@
 
 @media screen and (max-width: 560px) {
   .cards__website {
+    width: 90%;
     margin-top: 32px;
     margin-left: 16px;
   }

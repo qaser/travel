@@ -28,7 +28,7 @@
   }
 }
 
-@media(max-width: 360px) {
+@media(max-width: 380px) {
   .footer {
     flex-direction: column;
     padding-top: 0;
