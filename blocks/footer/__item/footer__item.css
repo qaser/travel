@@ -12,7 +12,7 @@
 @media(max-width: 320px) {
   .footer__item {
     padding-top: 32px;
-    margin-left: 16px;
+    /* margin-left: 16px; */
   }
   .footer__item:first-of-type {
     padding-top: 0;

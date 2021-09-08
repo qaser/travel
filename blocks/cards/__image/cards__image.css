@@ -6,6 +6,7 @@
 
 @media screen and (max-width: 560px) {
   .cards__image {
+    margin-top: 32px;
     max-width: 100%;
   }
 }
